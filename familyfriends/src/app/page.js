@@ -9,8 +9,8 @@ export default function Home() {
     <div>
       <Header />
       <main>
-        <SelectAnimalTypeBtn buttonText="ALLE" />
-        <DescriptiveLabels labelText="Demo" color="yellow" />
+        {/* <SelectAnimalTypeBtn buttonText="ALLE" />
+        <DescriptiveLabels labelText="Demo" color="yellow" /> */}
         <MainNavigation />
       </main>
     </div>

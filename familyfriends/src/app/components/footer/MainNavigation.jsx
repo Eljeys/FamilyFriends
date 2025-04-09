@@ -20,7 +20,7 @@ const MainNavigation = () => {
   };
   return (
     <nav>
-      <ul className="list-none p-0 m-0 flex gap-4">
+      <ul className="list-none p-0 m-0 flex gap-4 items-center justify-between">
         {menuItems.map((item) => (
           <li
             key={item.id}
